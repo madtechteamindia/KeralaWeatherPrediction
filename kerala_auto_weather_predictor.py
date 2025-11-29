@@ -11,7 +11,7 @@ import math
 
 st.set_page_config(page_title="Kerala Smart Weather Predictor", page_icon="🌦️")
 
-st.title("🌴 Kerala Weather Prediction System")
+st.title("🌴 FarmMate Weather Prediction System")
 st.markdown("""
 ### Enter only the **District** and **Date**, and get the predicted weather 🌤️  
 Model trained on 20,000+ Kerala weather samples across all 14 districts.
@@ -146,3 +146,4 @@ if st.button("🔮 Predict Weather"):
     st.write("🌡️ **Generated Features:**")
     st.json(weather_data)
     st.subheader(f"🌈 **Predicted Weather:** {predicted_label}")
+
